@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 1.0.0 (2022-12-29)
+=======
+# 0.92.0 (2022-12-30)
+>>>>>>> 34d601e8d976cc1a7c6b6af0976304fbff5abfe5
 
 
 ### Bug Fixes
@@ -163,6 +167,10 @@
 * **youtube/debugging:** do not require restarting on toggle ([ee1f895](https://github.com/tathaha/revanced-integrations/commit/ee1f895e877e515898118ff440066645de0a6a76))
 * **youtube/debugging:** print stack traces ([a9d2487](https://github.com/tathaha/revanced-integrations/commit/a9d24872a89f9039956993d8290713dcde3f0ead))
 * **youtube/fix-playback:** check faster for video length ([ac69b36](https://github.com/tathaha/revanced-integrations/commit/ac69b36773bf9fcad5b4cc4cd4340eb01d1230c7))
+<<<<<<< HEAD
+=======
+* **youtube/general-ads-patch:** hide channel member shelf ([#257](https://github.com/tathaha/revanced-integrations/issues/257)) ([87799e5](https://github.com/tathaha/revanced-integrations/commit/87799e5c553f71e01c59d4ba38898bba571d8134))
+>>>>>>> 34d601e8d976cc1a7c6b6af0976304fbff5abfe5
 * **youtube/general-ads-patch:** hide guidelines for subscriber ([#249](https://github.com/tathaha/revanced-integrations/issues/249)) ([f4e8afe](https://github.com/tathaha/revanced-integrations/commit/f4e8afe7ba7c3b516f2a3821918152a55fdd563d))
 * **youtube/general-ads:** block new ad in home feed ([934b981](https://github.com/tathaha/revanced-integrations/commit/934b981605515128c9d38f09768392f8d1c7bd98))
 * **youtube/general-ads:** block the separator by its identifier ([6ceff7c](https://github.com/tathaha/revanced-integrations/commit/6ceff7c9b36570d115db7df4fdc20c76d5935dc3))
@@ -186,6 +194,10 @@
 * **youtube/sponsorblock:** skip segments once automatically ([#190](https://github.com/tathaha/revanced-integrations/issues/190)) ([06bebd7](https://github.com/tathaha/revanced-integrations/commit/06bebd7017980880765a5735b1dc0502a01c5037))
 * **youtube/theme:** color explore drawer background ([#203](https://github.com/tathaha/revanced-integrations/issues/203)) ([cb40408](https://github.com/tathaha/revanced-integrations/commit/cb404086ad7b74a4280ccfaaed49e1edafe6eaf8))
 * **youtube:** `disable-zoom-haptics` patch ([#217](https://github.com/tathaha/revanced-integrations/issues/217)) ([fe74f6d](https://github.com/tathaha/revanced-integrations/commit/fe74f6d8a6740a4d4544344474756c8ac717748f))
+<<<<<<< HEAD
+=======
+* **youtube:** `hide-breaking-news-shelf` patch ([#258](https://github.com/tathaha/revanced-integrations/issues/258)) ([eec90ee](https://github.com/tathaha/revanced-integrations/commit/eec90ee04cdfcad08f0448c0f2e860e6eb25294f))
+>>>>>>> 34d601e8d976cc1a7c6b6af0976304fbff5abfe5
 * **youtube:** `hide-captions-button` patch ([#175](https://github.com/tathaha/revanced-integrations/issues/175)) ([867645e](https://github.com/tathaha/revanced-integrations/commit/867645ea5b853c01e9f3f0a87797b0bba62460fa))
 * **youtube:** `hide-mix-playlists` patch ([#177](https://github.com/tathaha/revanced-integrations/issues/177)) ([0e6a92f](https://github.com/tathaha/revanced-integrations/commit/0e6a92fb33fbe660c71dcf15146cde7131693619))
 * **youtube:** `open-links-directly` patch ([#201](https://github.com/tathaha/revanced-integrations/issues/201)) ([c3c1656](https://github.com/tathaha/revanced-integrations/commit/c3c16563ea4e55234b8dea24732ce5e53bb562c8))
@@ -200,6 +212,37 @@
 * **youtube/general-ads-patch:** reduce amount of components to filter ([#204](https://github.com/tathaha/revanced-integrations/issues/204)) ([502feaf](https://github.com/tathaha/revanced-integrations/commit/502feaf4448bf0442f852fbb8fdcb639239664db))
 * **youtube/general-ads-patch:** reduce amount of ignored components ([#237](https://github.com/tathaha/revanced-integrations/issues/237)) ([bf368e8](https://github.com/tathaha/revanced-integrations/commit/bf368e8dd49a91ba1d7a1df66344f77d8b788072))
 
+<<<<<<< HEAD
+=======
+# [0.89.0](https://github.com/revanced/revanced-integrations/compare/v0.88.0...v0.89.0) (2022-12-30)
+
+
+### Features
+
+* **youtube/general-ads-patch:** hide channel member shelf ([#257](https://github.com/revanced/revanced-integrations/issues/257)) ([87799e5](https://github.com/revanced/revanced-integrations/commit/87799e5c553f71e01c59d4ba38898bba571d8134))
+
+# [0.89.0-dev.1](https://github.com/revanced/revanced-integrations/compare/v0.88.0...v0.89.0-dev.1) (2022-12-30)
+
+
+### Features
+
+* **youtube/general-ads-patch:** hide channel member shelf ([#257](https://github.com/revanced/revanced-integrations/issues/257)) ([87799e5](https://github.com/revanced/revanced-integrations/commit/87799e5c553f71e01c59d4ba38898bba571d8134))
+
+# [0.88.0](https://github.com/revanced/revanced-integrations/compare/v0.87.0...v0.88.0) (2022-12-29)
+
+
+### Features
+
+* **youtube:** `hide-breaking-news-shelf` patch ([#258](https://github.com/revanced/revanced-integrations/issues/258)) ([eec90ee](https://github.com/revanced/revanced-integrations/commit/eec90ee04cdfcad08f0448c0f2e860e6eb25294f))
+
+# [0.88.0-dev.1](https://github.com/revanced/revanced-integrations/compare/v0.87.0...v0.88.0-dev.1) (2022-12-29)
+
+
+### Features
+
+* **youtube:** `hide-breaking-news-shelf` patch ([#258](https://github.com/revanced/revanced-integrations/issues/258)) ([eec90ee](https://github.com/revanced/revanced-integrations/commit/eec90ee04cdfcad08f0448c0f2e860e6eb25294f))
+
+>>>>>>> 34d601e8d976cc1a7c6b6af0976304fbff5abfe5
 # [0.87.0](https://github.com/revanced/revanced-integrations/compare/v0.86.1...v0.87.0) (2022-12-26)
 
 
