@@ -19,7 +19,7 @@ public class SlimMetadataScrollableButtonContainerLayout extends ViewGroup {
     }
 
     @Override
-    protected void onLayout(boolean b, int i, int i1, int i2, int i3, int i4) {
+    protected void onLayout(boolean b, int i, int i1, int i2, int i3) {
 
     }
 }

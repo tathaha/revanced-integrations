@@ -22,7 +22,7 @@ public class MicroGSupport {
             context.getPackageManager().getPackageInfo(MICROG_PACKAGE_NAME, PackageManager.GET_ACTIVITIES);
             LogHelper.printDebug(() -> "MicroG is installed on the device");
         } catch (PackageManager.NameNotFoundException exception) {
-            LogHelper.printException(() -> ("MicroG was not found"), exception);
+            LogHelper.printException(() -> ("MicroG Không tìm thấy trên thiết bị này"), exception);
             Toast.makeText(context, str("microg_not_installed_warning"), Toast.LENGTH_LONG).show();
 
             var intent = new Intent(Intent.ACTION_VIEW);
